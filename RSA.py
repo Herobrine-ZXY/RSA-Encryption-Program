@@ -527,7 +527,7 @@ class RSAChatApp(QMainWindow):
         pub_layout = QVBoxLayout(pub_group)
         self.encrypt_pub_key_edit = QTextEdit()
         self.encrypt_pub_key_edit.setPlaceholderText("在此粘贴公钥...")
-        pub_layout.addWidget(self.encrypt极_pub_key_edit)
+        pub_layout.addWidget(self.encrypt_pub_key_edit)
 
         # 明文输入
         plain_group = QGroupBox("明文")
